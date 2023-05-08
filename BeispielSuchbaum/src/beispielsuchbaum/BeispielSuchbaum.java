@@ -23,7 +23,7 @@ public class BeispielSuchbaum {
         BeispielSuchbaum test = new BeispielSuchbaum ();
         test.fuelle();
         System.out.println(test.getZahlenbaum().getContent().getZahl());
-        int x = test.groesseZahlSuchen();
+        int x = test.groessteZahlSuchen();
         System.out.println(x);
     }
     public void fuelle(){
